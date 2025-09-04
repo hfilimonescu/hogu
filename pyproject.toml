@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "hogu"
-version = "2024.2.0"
+version = "2024.2.1"
 description = ""
 authors = ["Horia Filimonescu <horia.filimonescu+github@gmail.com>"]
 readme = "README.md"
 packages = [{ include = "hogu", from = "src" }]
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.10"
 flask = "^3.0.2"
 
 
